@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+
+}
+body{
+    background-image: url("../image/velo.jpg");
+    background-repeat: no-repeat;
+    background-position: calc(50% + 5px) calc(50% + 185px);
+}
+.site-header{
+    margin-bottom: 15px;
+}
+.container{
+    width: 500px;
+    margin: 0 auto;
+    
+  
+}
+.header{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.image{
+    border-radius: 50%;
+}
+
+/* velo section */
+.velo-content{
+    margin-bottom: 30px;
+}
+.velo-text{
+    color: gray;
+}
+.velo-first-content, .velo-second-content, .velo-third-content{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+
+
+/* Hover's */
+.image:hover{
+    background-color: #008170;
+    border-radius: 50px;
+}
+.velo-first-content:hover{
+    color: blue;
+}
+.velo-second-content:hover{
+    color:blue;
+}
+.velo-third-content:hover{
+    color:blue;
+}
+
+
+
+
+
